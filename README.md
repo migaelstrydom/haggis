@@ -107,8 +107,6 @@ build/doc/      Documentation in .pdf format
 build/images/   Images needed by the game
 build/test/     Test data needed by the unit tests
 
-doc/            Documentation
-
 src/            The source code and data
 src/game/       Source code for the game
 src/test/       Unit testing code and data
