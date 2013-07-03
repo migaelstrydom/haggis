@@ -10,15 +10,15 @@ Apache 2.0 license.
 
 Overview
 --------
-``Save the Haggis'' is a turn-based computer game in 3D where the
+"Save the Haggis" is a turn-based computer game in 3D where the
 player sets off on a quest to destroy a mythical creature called a Haggis. The
-game is called ``Save the Haggis'' as opposed to ``Destroy the Haggis''
+game is called "Save the Haggis" as opposed to "Destroy the Haggis"
 because of an ironic plot development in the game. According to the in-game
 story in the introduction of the game, a country that had been eating Haggis
 for generations had finally agreed to honoring the rights of the Haggis not
 to be eaten, and were in the process of a political move to outlaw the eating
-of Haggis. The aim of the hero in this game is to undermine this whole ``Save
-the Haggis'' campaign.
+of Haggis. The aim of the hero in this game is to undermine this whole "Save
+the Haggis" campaign.
 
 Gameplay
 --------
