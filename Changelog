@@ -1,0 +1,64 @@
+2006-09-27 Migael Strydom
+   * Changed the cell class so that cells do not become dark when they contain
+     a wall.
+   * Fixed the segmentation fault when the hero throws a grenade onto an empty
+     cell.
+   * Changed grenade to use makeCube.
+
+2006-09-26 Timothy Stranex
+   * Changed Texture to build mipmaps
+   * Added exit button to overlay
+   * Added makeCube() to Mesh and changed Hero and Haggis to use it
+   * Added BillBoard class
+   * Changed the item texture cache to use an STL map
+   * Moved the item billboard rendering to ItemAction
+   * Added getEntities() to Cell
+   * Changed item to render a cube when visible
+   * Added FloatAction
+   * Grenades can damage the haggis now
+   * Items work on the haggis too now
+   * Added cell textures
+
+2006-09-25 Migael Strydom
+   * Finished implementing items & item actions.
+
+2006-09-24 Migael Strydom
+   * Changed selection methods so that hero cannot move onto
+     the Haggis' square.
+   * Updated the Haggis AI so that it jumps over the hero.
+   * Made grenades blow up walls.
+   * Fixed a memory bug.
+   * Created Item class
+
+2006-09-24 Timothy Stranex
+   * Wrote testing plan and test cases documents
+   * Started a haggis mesh
+
+2006-09-15 Timothy Stranex
+   * Added intro, levelend, credits windows, progressbar
+   * Added more game logic
+   * Changed maze zooming and rotation to use mouse
+
+2006-09-14 Migael Strydom
+   * Added grenade action
+   * Added jump action
+   * Added Haggis
+   * Made Haggis move
+
+2006-09-13 Timothy Stranex
+   * Added multi-pass window rendering
+   * Added Overlay, WaitAction
+   * Rearranged random bits of code
+
+2006-09-12 Migael Strydom
+   * Added lighting
+   * Changed cell rendering (now in 3D)
+   * Added grenade action
+
+2006-09-10  Timothy Stranex
+   * Created a unittest framework. See the 'test' directory. You can run the
+     tests with './haggis --test'.
+   * Moved the game sources to the 'game' directory. The test and game modules
+     are built into static libraries.
+   * Fixed the windowing system. See the description in window.h.
+   * Added Texture, Widget, Button and LevelBegin classes.
