@@ -59,6 +59,15 @@ the Haggis by making either its health or its energy drop to zero, while not
 being killed by the Haggis or traps in the maze first. Once this goal has been
 achieved, the game will be over.
 
+System Requirements
+-------------------
+
+  - Linux/FreeBSD
+  - An OpenGL capable graphics card
+  - SDL
+  - Pentium 4 or equivalent or higher
+  - 256MB RAM
+
 Quick Start
 -----------
 
